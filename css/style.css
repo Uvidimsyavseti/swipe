@@ -1,0 +1,159 @@
+:root {
+  --main-bg-color: #2DA7FF;
+  --second-bg-color: #333333;
+
+}
+
+body {
+	padding: 0;
+	margin:0;
+	font-family: 'Ubuntu Mono', monospace;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	color: #333333;
+	background-color: var(--main-bg-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: IBM Plex Mono, monospace;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 64px;
+	padding: 0;
+	margin: 0;
+	color: #F2F2F2;
+}
+
+ul, li {
+	display: block;
+}
+
+section {
+	
+	height: 1000px;
+
+}
+
+.screen_1 {
+	height: 800px;
+}
+
+.arrow {
+	margin-top: 510px;
+    position: absolute;
+    right: 30px;
+}
+
+.screen_2 {
+	height: 1000px;
+	
+}
+
+.screen_2_title h1{
+	font-size: 48px;
+	line-height: 32px;
+	text-align: center;
+	color: #E0E0E0;
+	background-color: var(--second-bg-color);
+	padding: 20px 71px 23px 71px;
+	box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.1), 6px 6px 12px rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+	margin-bottom: 70px;
+}
+
+.view {
+	background-color: var(--second-bg-color);
+}
+.elegant-color {
+	background-color: var(--second-bg-color)!important;
+}
+
+.card-title {
+	font-size: 18px;
+	line-height: 32px;
+	color: #2DA7FF;
+
+}
+
+.bg_card {
+	background-color: black;
+	padding: 78px;
+	background-color: var(--second-bg-color);
+	box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.1), 6px 6px 12px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+}
+
+
+
+.card {
+	margin-top: 22px;
+	box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.1), 6px 6px 12px rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+
+	
+}
+
+.card-img-top {
+	width: 50%;
+}
+
+.overlay {
+	height: 278px;
+	display: flex;
+	justify-content: center;
+}
+
+/*.container {
+	border: solid 1px black;
+
+}
+*/
+.navbar {
+	background-color: var(--main-bg-color);
+}
+
+.btn {
+	background-color: var(--main-bg-color);
+	margin: 26px 0 0 0;
+	text-transform: none;
+	box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.1), 6px 6px 12px rgba(0, 0, 0, 0.2);
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 32px;
+	text-align: center;
+	color: #F2F2F2;
+}
+
+.btn:active, .btn:hover, .btn:focus {
+	box-shadow: -6px -6px 6px rgba(255, 255, 255, 0.1), 6px 6px 6px rgba(0, 0, 0, 0.2);
+	color: #F2F2F2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1024px) {
+	.mobile_hidden {
+	display: none;
+	}
+}
