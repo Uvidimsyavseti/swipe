@@ -52,23 +52,26 @@ section {
 	
 }
 
-.screen_2_title h1{
+.screen_2_title {
+	text-align: center;
+	box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.1), 6px 6px 12px rgba(0, 0, 0, 0.2);
+	margin: 20px 20px 70px 20px;
+	border-radius: 20px;
+}
+
+.screen_2_title h3{
 	font-size: 48px;
 	line-height: 32px;
-	text-align: center;
 	color: #E0E0E0;
-	background-color: var(--second-bg-color);
-	padding: 20px 71px 23px 71px;
-	box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.1), 6px 6px 12px rgba(0, 0, 0, 0.2);
-	border-radius: 2px;
-	margin-bottom: 70px;
+	padding: 20px;
+
 }
 
 .view {
 	background-color: var(--second-bg-color);
 }
 .elegant-color {
-	background-color: var(--second-bg-color)!important;
+	background-color: transparent !important;
 }
 
 .card-title {
@@ -79,20 +82,21 @@ section {
 }
 
 .bg_card {
-	background-color: black;
 	padding: 78px;
 	background-color: var(--second-bg-color);
 	box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.1), 6px 6px 12px rgba(0, 0, 0, 0.2);
 	border-radius: 20px;
 }
 
-
+.card-deck {
+	padding: 20px;
+}
 
 .card {
 	margin-top: 22px;
+	background-color: var(--second-bg-color);
 	box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.1), 6px 6px 12px rgba(0, 0, 0, 0.2);
-	border-radius: 2px;
-
+	border-radius: 20px;
 	
 }
 
@@ -155,5 +159,23 @@ section {
 @media (max-width:1024px) {
 	.mobile_hidden {
 	display: none;
+	}
+	.bg_card {
+		padding: 0;
+	}
+	.screen_2 {
+		margin: 0;
+		padding: 0;
+	}
+	.screen_2_title {
+	    padding: 15px;
+	    border-radius: 20px;
+	}
+	.screen_2_title h3 {
+		font-size: 28px;
+		line-height: 28px;
+	}
+	.card-deck {
+		flex-direction: column;
 	}
 }
